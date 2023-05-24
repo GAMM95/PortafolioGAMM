@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gamm-portfolio/static/css/main.97441c6f.css",
+    "main.js": "/gamm-portfolio/static/js/main.d255e8f7.js",
+    "static/media/GAMM-CV.pdf": "/gamm-portfolio/static/media/GAMM-CV.fb0f9300cece141f187a.pdf",
+    "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
+    "static/media/desktop_responsive.png": "/gamm-portfolio/static/media/desktop_responsive.199d8055444364bfb31a.png",
+    "static/media/about-img.jpg": "/gamm-portfolio/static/media/about-img.a8afc721935a27d4184d.jpg",
+    "static/media/work2.jpg": "/gamm-portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/gamm-portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work3.jpg": "/gamm-portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/gamm-portfolio/index.html",
+    "main.97441c6f.css.map": "/gamm-portfolio/static/css/main.97441c6f.css.map",
+    "main.d255e8f7.js.map": "/gamm-portfolio/static/js/main.d255e8f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97441c6f.css",
+    "static/js/main.d255e8f7.js"
+  ]
+}
