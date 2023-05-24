@@ -21,9 +21,9 @@ const Contact = () => {
           {/* {Panel izquierdo} */}
           <div className="contact__info">
             <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
+              <i className="bx bxl-discord-alt contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Email</h3>
+              <h3 className="contact__card-title">Discord</h3>
               <span className="contact__card-data">jhonatanmm.1995@gmail.com</span>
 
               <a href="mailto:jhonatanmm.1995@gmail.com" className="contact__button" target="_blank" rel="noopener noreferrer">Enviar mensaje{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
@@ -38,14 +38,6 @@ const Contact = () => {
               <a href="https://wa.link/bhbxb3" className="contact__button" target="_blank" rel="noopener noreferrer">Enviar mensaje{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
             </div>
 
-            <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">(+51) 950 212 908</span>
-
-              <a href="https://wa.link/bhbxb3" className="contact__button" target="_blank" rel="noopener noreferrer">Enviar mensaje{" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
-            </div>
           </div>
         </div>
 
