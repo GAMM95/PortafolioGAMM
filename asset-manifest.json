@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.97441c6f.css",
+    "main.css": "/gamm-portfolio/static/css/main.d9a6ba8c.css",
     "main.js": "/gamm-portfolio/static/js/main.b271e636.js",
     "static/media/GAMM-CV.pdf": "/gamm-portfolio/static/media/GAMM-CV.fb0f9300cece141f187a.pdf",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
@@ -10,11 +10,11 @@
     "static/media/work4.jpg": "/gamm-portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
     "static/media/work3.jpg": "/gamm-portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.97441c6f.css.map": "/gamm-portfolio/static/css/main.97441c6f.css.map",
+    "main.d9a6ba8c.css.map": "/gamm-portfolio/static/css/main.d9a6ba8c.css.map",
     "main.b271e636.js.map": "/gamm-portfolio/static/js/main.b271e636.js.map"
   },
   "entrypoints": [
-    "static/css/main.97441c6f.css",
+    "static/css/main.d9a6ba8c.css",
     "static/js/main.b271e636.js"
   ]
 }
