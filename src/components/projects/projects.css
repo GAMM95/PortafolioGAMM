@@ -41,6 +41,7 @@
   padding: 1.25rem;
   border-radius: 1rem;
 }
+
 .work__img {
   width: 295px;
   border-radius: 1rem;
@@ -51,6 +52,17 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+  text-align: center;
+}
+.work__description {
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-0-5);
+  text-align: justify;
+}
+
+.work__tech {
+  font-size: var(--smaller-font-size);
+  text-align: center;
 }
 
 .work__button {

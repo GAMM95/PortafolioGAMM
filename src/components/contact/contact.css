@@ -111,10 +111,12 @@
 @media screen and (max-width: 768px) {
   .contact__container {
     grid-template-columns: 1fr;
-		row-gap: 3rem;
+		row-gap: 1rem;
   }
 	.contact__info{
+    grid-template-columns: 1fr;
 		justify-content: center;
+    display: none;
 	}
 	.contact__form{
 		margin: 0 auto;
@@ -124,6 +126,7 @@
 @media screen and (max-width: 576px) {
 	.contact__info{
 		grid-template-columns: 1fr;
+    display: none;
 	}
 	.contact__form{
 		width: 100%;

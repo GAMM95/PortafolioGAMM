@@ -4,8 +4,8 @@ import Header from './components/header/Header'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
-import Services from './components/services/Services'
-import Qualification from './components/qualification/Qualification'
+/*import Services from './components/services/Services'
+import Qualification from './components/qualification/Qualification'*/
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
@@ -19,13 +19,13 @@ const App = () => {
       <main className='main'>
         <Home />
         <About />
+        {/*<Qualification />*/}
         <Skills />
-        <Services />
-        <Qualification />
+        {/*<Services />*/}
         <Projects />
         <Contact />
       </main>
-      
+
       <Footer />
       <Scroll />
     </>

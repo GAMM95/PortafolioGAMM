@@ -21,6 +21,11 @@
   font-weight: var(--font-medium);
 }
 
+.logo {
+  width: 18%;
+  height: auto;
+}
+
 .nav__list {
   display: flex;
   column-gap: 2rem;
@@ -49,18 +54,21 @@
 }
 
 /* Cambiar el background del header */
-.scroll-header{
+.scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* ========= BREAKPOINTS ========= */
 /* For medium devices */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .header {
     top: initial;
     bottom: 0;
   }
-
+  .logo {
+    width: 12%;
+    height: auto;
+  }
   .nav {
     height: var(--header-height);
   }
@@ -78,7 +86,7 @@
   }
 
   /* mostrar menu */
-  .show-menu{
+  .show-menu {
     bottom: 0;
   }
 
@@ -95,7 +103,7 @@
   .nav__close {
     position: absolute;
     right: 1.3rem;
-    bottom: .5rem;
+    bottom: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--title-color);
@@ -105,7 +113,7 @@
     color: var(--title-color-dark);
   }
 
-  .nav__toggle{
+  .nav__toggle {
     font-size: 1.1rem;
     cursor: pointer;
   }
@@ -123,7 +131,7 @@
     padding: 2rem 0.25rem 4rem;
   }
 
-  .nav__list{
+  .nav__list {
     column-gap: 0;
   }
 }

@@ -8,6 +8,7 @@ export const projectsData = [
     id: 1,
     image: Work1,
     title: 'Encriptador de textos',
+    technologies: 'HTML - CSS - JavaScript',
     category: 'Web',
     github:'https://github.com/GAMM95/challengeONE_encriptador',
     demo: 'https://gamm95.github.io/challengeONE_encriptador/',

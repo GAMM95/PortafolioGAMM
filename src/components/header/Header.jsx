@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import logo from '../../assets/gamm-logo.ico'
 
 const Header = () => {
   /* ========= Cambiar fondo del encabezado ========= */
@@ -16,12 +17,17 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo"> GAMM
+        {/* Logo */}
+        <a href="index.html" className="nav__logo">
+          <img src={logo} className='logo' alt='logoG'></img>
         </a>
 
+        {/* Menu de items */}
         <div className={Toggle ? "nav__menu show-menu" :
           "nav__menu"}>
           <ul className="nav__list grid">
+
+            {/* Home item */}
             <li className="nav__item">
               <a href="#home"
                 onClick={() => setActiveNav('#home')}
@@ -32,6 +38,7 @@ const Header = () => {
               </a>
             </li>
 
+            {/* About me Item */}
             <li className="nav__item">
               <a href="#about" onClick={() => setActiveNav('#about')}
                 className={activeNav === "#about"
@@ -41,6 +48,7 @@ const Header = () => {
               </a>
             </li>
 
+            {/* Skills Item */}
             <li className="nav__item">
               <a href="#skills" onClick={() => setActiveNav('#skills')}
                 className={activeNav === "#skills"
@@ -50,6 +58,8 @@ const Header = () => {
               </a>
             </li>
 
+            {/* Services Item */}
+            {/*}
             <li className="nav__item">
               <a href="#services" onClick={() => setActiveNav('#services')}
                 className={activeNav === "#services"
@@ -58,7 +68,9 @@ const Header = () => {
                 <i className="uil uil-briefcase-alt nav__icon"></i>Servicios
               </a>
             </li>
+            */}
 
+            {/* Proyects Item */}
             <li className="nav__item">
               <a href="#portfolio" onClick={() => setActiveNav('#portfolio')}
                 className={activeNav === "#portfolio"
@@ -68,6 +80,7 @@ const Header = () => {
               </a>
             </li>
 
+            {/* Contact Item */}
             <li className="nav__item">
               <a href="#contact" onClick={() => setActiveNav('#contact')}
                 className={activeNav === "#contact"
@@ -78,9 +91,11 @@ const Header = () => {
             </li>
           </ul>
 
+          {/* Evento cerrar menu - Vista de dispositivos */}
           <i class="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
         </div>
 
+        {/* Evento mostrar menu - Vista de dispositivos */}
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <i class="uil uil-apps"></i>
         </div>
