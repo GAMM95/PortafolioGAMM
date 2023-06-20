@@ -12,8 +12,8 @@ const Data = () => {
       </h1>
 
       {/* Desempeño */}
-      <h3 className="home__subtitle">Dev en formación enfocado al BackEnd</h3>
-      <p className="home__description">Hola, soy estudiante de ingeniería de sistemas, apasionado por la programación.</p>
+      <h3 className="home__subtitle">Dev en formación</h3>
+      <p className="home__description">Hola, soy <strong>ingeniero de minas</strong> y <strong>estudiante de ingeniería de sistemas</strong>, apasionado por las nuevas tecnologías y la programación.</p>
 
       {/* Boton de contacto */}
       <a href="#contact" className="button button--flex">

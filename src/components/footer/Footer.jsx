@@ -23,7 +23,7 @@ const Footer = () => {
 					<a href="https://github.com/GAMM95" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a>
 				</div>
 
-				<span className='footer__copy'>&#169; Hecho por GAMM95</span>
+				<span className='footer__copy'>&#169; Hecho por <strong>Jhonatan Mantilla</strong></span>
 			</div>
 		</footer>
 	)

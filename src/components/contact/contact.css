@@ -56,6 +56,11 @@
   transform: translate(0.25rem);
 }
 
+.button.button--flex #contact__send {
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
 .contact__form {
   width: 360px;
 }
@@ -111,26 +116,26 @@
 @media screen and (max-width: 768px) {
   .contact__container {
     grid-template-columns: 1fr;
-		row-gap: 1rem;
+    row-gap: 1rem;
   }
-	.contact__info{
+  .contact__info {
     grid-template-columns: 1fr;
-		justify-content: center;
+    justify-content: center;
     display: none;
-	}
-	.contact__form{
-		margin: 0 auto;
-	}
+  }
+  .contact__form {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 576px) {
-	.contact__info{
-		grid-template-columns: 1fr;
+  .contact__info {
+    grid-template-columns: 1fr;
     display: none;
-	}
-	.contact__form{
-		width: 100%;
-	}
+  }
+  .contact__form {
+    width: 100%;
+  }
 }
 
 /* For small devices */

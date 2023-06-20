@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <section className="proyect section" id="portfolio">
       {/* Titulo */}
-      <h2 className='section__title'>Portafolio</h2>
-      <span className='section__subtitle'>Mis proyectos</span>
+      <h2 className='section__title'>Proyectos</h2>
+      <span className='section__subtitle'>Mi portafolio de proyectos realizados</span>
 
       <Work />
     </section>

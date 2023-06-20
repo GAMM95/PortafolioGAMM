@@ -127,7 +127,7 @@
 
 @keyframes filljs {
   100% {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -137,12 +137,50 @@
 
 @keyframes fillreact {
   100% {
-    width: 20%;
+    width: 15%;
   }
 }
 
 /* Animacion Backend */
+#java-bar {
+  animation: filljava 2s forwards;
+}
 
+@keyframes filljava {
+  100% {
+    width: 80%;
+  }
+}
+
+#sql-bar {
+  animation: fillsql 2s forwards;
+}
+
+@keyframes fillsql {
+  100% {
+    width: 60%;
+  }
+}
+
+#mysql-bar {
+  animation: fillmysql 2s forwards;
+}
+
+@keyframes fillmysql {
+  100% {
+    width: 65%;
+  }
+}
+
+#node-bar {
+  animation: fillnode 2s forwards;
+}
+
+@keyframes fillnode {
+  100% {
+    width: 10%;
+  }
+}
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

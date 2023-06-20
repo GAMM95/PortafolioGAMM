@@ -10,43 +10,52 @@ const Skills = () => {
 
   return (
     <section className="skills section" id="skills">
+      {/* Titulo de seccion */}
       <h2 className="section__title">Habilidades</h2>
-      <span className="section__subtitle">Tecnologías que manejo</span>
+      <span className="section__subtitle">Herramientas que manejo</span>
 
       <div className="skills__container container grid">
+
+        {/* Seccion izquierdo */}
         <div className="skills__tabs">
+
+          {/* Desarrollo FrontEnd */}
           <div className={toggleState === 1
             ? "skills__button skills__active button--flex"
             : "skills__button button--flex"
           } onClick={() => toggleTab(1)}>
             <i class="uil uil-brackets-curly skills__icon"></i>
             <div>
-              <h1 class="skills__title">Desarrollo Frontend</h1>
-              <span class="skills__subtitle">More than 4 years</span>
+              <h1 class="skills__title">Desarrollo Front-End</h1>
+              <span class="skills__subtitle">Más de 6 meses</span>
             </div>
             <i class="uil uil-angle-down skills__arrow"></i>
           </div>
 
+          {/* Desarrollo BackEnd */}
           <div className={toggleState === 2
             ? "skills__button skills__active button--flex"
             : "skills__button button--flex"
           } onClick={() => toggleTab(2)}>
             <i class="uil uil-database-alt skills__icon"></i>
             <div>
-              <h1 class="skills__title">Desarrollo Backend</h1>
-              <span class="skills__subtitle">More than 2 years</span>
+              <h1 class="skills__title">Desarrollo Back-End</h1>
+              <span class="skills__subtitle">Más de 2 años</span>
             </div>
             <i class="uil uil-angle-down skills__arrow"></i>
           </div>
         </div>
 
-
+        {/* Seccion derecha */}
         <div className="skills__sections">
+
+          {/* Tecnologias FrontEnd */}
           <div className={toggleState === 1
             ? "skills__content skills__content-active"
             : "skills__content"} >
             <div className="skills__list grid">
 
+              {/* HTML*/}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">HTML 5</div>
@@ -57,6 +66,7 @@ const Skills = () => {
                 </div>
               </div>
 
+              {/* CSS */}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">CSS 3</div>
@@ -67,20 +77,22 @@ const Skills = () => {
                 </div>
               </div>
 
+              {/* JAVASCRIPT */}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">JAVASCRIPT</div>
-                  <div className="skills__level">50%</div>
+                  <div className="skills__level">40%</div>
                 </div>
                 <div className="skills__bar">
                   <div id="js-bar"></div>
                 </div>
               </div>
 
+              {/* REACT */}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">REACT</div>
-                  <div className="skills__level">20%</div>
+                  <div className="skills__level">15%</div>
                 </div>
                 <div className="skills__bar">
                   <div id="react-bar"></div>
@@ -90,48 +102,53 @@ const Skills = () => {
             </div>
           </div>
 
+          {/* Tecnologias BackEnd */}
           <div className={toggleState === 2
             ? "skills__content skills__content-active"
             : "skills__content"} >
             <div className="skills__list grid">
 
+              {/* JAVA */}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">Java</div>
-                  <div className="skills__level">70%</div>
+                  <div className="skills__level">80%</div>
                 </div>
                 <div className="skills__bar">
-                  <div id="html-bar"></div>
+                  <div id="java-bar"></div>
                 </div>
               </div>
 
+              {/* SQL Server */}
               <div className="skills__data">
                 <div className="skills__languajes">
                   <div className="skills__name">SQL Server</div>
                   <div className="skills__level">60%</div>
                 </div>
                 <div className="skills__bar">
-                  <div id="css-bar"></div>
+                  <div id="sql-bar"></div>
                 </div>
               </div>
 
+              {/* MySQL Workbench */}
               <div className="skills__data">
                 <div className="skills__languajes">
-                  <div className="skills__name">JAVASCRIPT</div>
-                  <div className="skills__level">50%</div>
+                  <div className="skills__name">MySQL Workbench</div>
+                  <div className="skills__level">65%</div>
                 </div>
                 <div className="skills__bar">
-                  <div id="js-bar"></div>
+                  <div id="mysql-bar"></div>
                 </div>
               </div>
 
+              {/* Node.js */}
               <div className="skills__data">
                 <div className="skills__languajes">
-                  <div className="skills__name">REACT</div>
-                  <div className="skills__level">20%</div>
+                  <div className="skills__name">Node.js</div>
+                  <div className="skills__level">10%</div>
                 </div>
                 <div className="skills__bar">
-                  <div id="react-bar"></div>
+                  <div id="node-bar"></div>
                 </div>
               </div>
 

@@ -8,10 +8,12 @@
   width: 350px;
   border-radius: 1.5rem;
   justify-self: center;
+  margin-bottom: 6rem;
 }
 
 .about__info {
-  grid-template-columns: repeat(3, 160px);
+  /*grid-template-columns: repeat(3, 160px);*/
+  grid-template-columns: repeat(2, 240px);
   gap: 0.5rem;
   margin-bottom: var(--mb-2);
 }
@@ -26,6 +28,7 @@
 
 .about__box:hover {
   background-color: var(--hover-color);
+  scale: 105%;
   transition: 0.3s;
 }
 
@@ -45,10 +48,12 @@
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
+  padding: 0 .5rem 0 .5rem;
   margin-bottom: var(--mb-2-5);
+  text-align: center;
 }
-#about__download {
+
+.button.button--flex #about__download {
   grid-template-columns: 1fr;
   justify-content: center;
 }
@@ -62,6 +67,7 @@
   }
   .about__img {
     width: 220px;
+    margin-bottom: 0%;
   }
 
   .about__box {
@@ -83,7 +89,8 @@
 /* For medium devices */
 @media screen and (max-width: 576px) {
   .about__info {
-    grid-template-columns: repeat(3, 1fr);
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(2, 1fr);
   }
   .about__description {
     padding: 0;

@@ -3,7 +3,7 @@ import './about.css';
 import AboutImg from "../../assets/about-img.jpg";
 import FileSVG from '../../assets/files.svg'
 import CV from "../../assets/GAMM-CV.pdf"
-import Info from './Info';
+//import Info from './Info';
 
 const About = () => {
 	return (
@@ -15,14 +15,18 @@ const About = () => {
 				<img src={AboutImg} alt="" className="about__img" />
 
 				<div className="about__data">
-					<Info />
+					{/*<Info />*/}
 
-					<p className="about__description">Lorem ipsum dolor sit amet.</p>
+					<p className="about__description">
+						Como estudiante de ingeniería de sistemas, me he sentido atraído por la programación, empezando mis primeras líneas de código con el lenguaje Java y practicando a través de proyectos universitarios y personales. <br /><br />
+						Soy una persona de rápido aprendizaje, autodidacta y considero cada proyecto un nuevo reto para aprender y crecer profesionalmente.<br /><br />
+						Vivo en Trujillo, Perú. mi banda favorita es Soda Stereo y soy fanático del rock de por vida.
+					</p>
 
-					<a download="" href={CV} className="button button--flex" id='about__download'>
+					<button download="" href={CV} className="button button--flex" id='about__download'>
 						Descargar CV
 						<img src={FileSVG} className='button__icon' alt='files' />
-					</a>
+					</button>
 				</div>
 			</div>
 		</section>

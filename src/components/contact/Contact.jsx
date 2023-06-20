@@ -2,14 +2,25 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactSVG from '../../assets/send.svg'
 import './contact.css'
+import Swal from 'sweetalert2'
 
 const Contact = () => {
   const form = useRef();
 
+
+  const mostrarAlerta = (e) => {
+      Swal.fire({
+        icon: 'success',
+        text: 'Mensaje enviado',
+        timer: '3000'
+      })
+
+  }
   const sendEmail = (e) => {
     e.preventDefault();
     // Envio de mensaje
     emailjs.sendForm('service_a9sjabw', 'template_lb7pjxo', form.current, 'I95TsA84ROWVMaiGq')
+    mostrarAlerta();
     e.target.reset()
   };
   return (
@@ -17,10 +28,10 @@ const Contact = () => {
       {/* {Titulo} */}
       <h2 className="section__title">Contáctame</h2>
       <span className="section__subtitle">Ponte en contacto</span>
-
       <div className="contact__container container grid">
 
         <div className="contact__content">
+
           {/* {Panel izquierdo} */}
           <div className="contact__info">
             <div className="contact__card">
@@ -48,22 +59,27 @@ const Contact = () => {
         <div className="contact__content">
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
+
+            {/* Input Nombre */}
             <div className="contact__form-div">
               <label className="contact__form-tag">Nombre</label>
               <input type="text" name='name' className='contact__form-input' placeholder='Ingrese su nombre' required />
             </div>
 
+            {/* Input Email */}
             <div className="contact__form-div">
               <label className="contact__form-tag">Email</label>
               <input type="email" name='email' className='contact__form-input' placeholder='Ingrese su email' required />
             </div>
 
+            {/* Input Mensaje */}
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Mensaje</label>
               <textarea name="mensaje" cols="30" rows="10" className='contact__form-input' placeholder='Escriba su mensaje' required></textarea>
             </div>
 
-            <button className="button button--flex">
+            {/* Boton Enviar mensaje */}
+            <button className="button button--flex" id='contact__send' >
               Enviar mensaje
               <img src={ContactSVG} className='button__icon' alt='sendSVG' />
             </button>
