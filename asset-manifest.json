@@ -1,24 +1,21 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.e83a3c54.css",
-    "main.js": "/gamm-portfolio/static/js/main.d7c3329b.js",
+    "main.css": "/gamm-portfolio/static/css/main.51b401d4.css",
+    "main.js": "/gamm-portfolio/static/js/main.d77e64b9.js",
     "static/media/GAMM-CV.pdf": "/gamm-portfolio/static/media/GAMM-CV.fb0f9300cece141f187a.pdf",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
     "static/media/about-img.jpg": "/gamm-portfolio/static/media/about-img.a8afc721935a27d4184d.jpg",
     "static/media/desktop_responsive.png": "/gamm-portfolio/static/media/desktop_responsive.443ddcbb74815f6bcef5.png",
     "static/media/gamm-logo.ico": "/gamm-portfolio/static/media/gamm-logo.da874e5bc956403cd4e0.ico",
-    "static/media/work2.jpg": "/gamm-portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work4.jpg": "/gamm-portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work3.jpg": "/gamm-portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
     "static/media/hand.svg": "/gamm-portfolio/static/media/hand.224ba8f9af2a0a95e7ee12f22e59855c.svg",
     "static/media/send.svg": "/gamm-portfolio/static/media/send.585d74e8587389551779d951f25bc1cc.svg",
     "static/media/files.svg": "/gamm-portfolio/static/media/files.c7a30b70ac5a9118ccfd718aded479ca.svg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.e83a3c54.css.map": "/gamm-portfolio/static/css/main.e83a3c54.css.map",
-    "main.d7c3329b.js.map": "/gamm-portfolio/static/js/main.d7c3329b.js.map"
+    "main.51b401d4.css.map": "/gamm-portfolio/static/css/main.51b401d4.css.map",
+    "main.d77e64b9.js.map": "/gamm-portfolio/static/js/main.d77e64b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e83a3c54.css",
-    "static/js/main.d7c3329b.js"
+    "static/css/main.51b401d4.css",
+    "static/js/main.d77e64b9.js"
   ]
 }
