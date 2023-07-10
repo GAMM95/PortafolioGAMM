@@ -9,11 +9,11 @@ const Contact = () => {
 
 
   const mostrarAlerta = (e) => {
-      Swal.fire({
-        icon: 'success',
-        text: 'Mensaje enviado',
-        timer: '3000'
-      })
+    Swal.fire({
+      icon: 'success',
+      text: 'Mensaje enviado',
+      timer: '3000'
+    })
 
   }
   const sendEmail = (e) => {

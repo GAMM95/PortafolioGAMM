@@ -13,7 +13,15 @@ export const projectsData = [
     github: 'https://github.com/GAMM95/challengeONE_encriptador',
     demo: 'https://gamm95.github.io/challengeONE_encriptador/',
   },
-
+  {
+    id: 2,
+    image: Work1,
+    title: 'Barbería Alura',
+    technologies: 'HTML - CSS - JavaScript',
+    category: 'Web',
+    github: 'https://github.com/GAMM95/barberia-alura',
+    demo: 'https://gamm95.github.io/barberia-alura/',
+  }
 ];
 
 export const projectsNav = [
