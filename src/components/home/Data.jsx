@@ -4,7 +4,9 @@ import ContactSVG from '../../assets/send.svg'
 
 const Data = () => {
   return (
-    <div className="home__data">
+    <div className="home__data"
+      data-aos="fade-up"
+      data-aos-duration="1500">
 
       {/* Nombre */}
       <h1 className="home__title">Jhonatan Mantilla
@@ -16,7 +18,9 @@ const Data = () => {
       <p className="home__description">Hola, soy <strong>ingeniero de minas</strong> y <strong>estudiante de ingeniería de sistemas</strong>, apasionado por las nuevas tecnologías y la programación.</p>
 
       {/* Boton de contacto */}
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"F>
         Contáctame
         <img src={ContactSVG} className='button__icon' alt='sendSVG' />
       </a>

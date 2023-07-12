@@ -25,8 +25,10 @@ const Work = () => {
     setActive(index);
   };
   return (
-    <div>
-      <div className="work__filters">
+    <div  >
+      <div className="work__filters" 
+      data-aos="flip-left"
+      data-aos-duration="1000">
         {projectsNav.map((item, index) => {
           return (
             <span onClick={(e) => {

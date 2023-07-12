@@ -33,7 +33,9 @@ const Contact = () => {
         <div className="contact__content">
 
           {/* {Panel izquierdo} */}
-          <div className="contact__info">
+          <div className="contact__info"
+            data-aos="fade-down"
+            data-aos-duration="500">
             <div className="contact__card">
               <i className="bx bxl-discord-alt contact__card-icon"></i>
 
@@ -56,7 +58,10 @@ const Contact = () => {
         </div>
 
         {/* {Panel de fomulario} */}
-        <div className="contact__content">
+        <div className="contact__content"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
 

@@ -17,7 +17,9 @@ const Skills = () => {
       <div className="skills__container container grid">
 
         {/* Seccion izquierdo */}
-        <div className="skills__tabs">
+        <div className="skills__tabs" 
+        data-aos="zoom-in-right"
+        data-aos-duration="1000">
 
           {/* Desarrollo FrontEnd */}
           <div className={toggleState === 1
@@ -47,7 +49,9 @@ const Skills = () => {
         </div>
 
         {/* Seccion derecha */}
-        <div className="skills__sections">
+        <div className="skills__sections"
+          data-aos="zoom-in-left"
+          data-aos-duration="1000">
 
           {/* Tecnologias FrontEnd */}
           <div className={toggleState === 1
