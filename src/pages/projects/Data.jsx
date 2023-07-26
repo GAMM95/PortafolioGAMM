@@ -21,6 +21,15 @@ export const projectsData = [
     category: 'Web',
     github: 'https://github.com/GAMM95/barberia-alura',
     demo: 'https://gamm95.github.io/barberia-alura/',
+  },
+  {
+    id: 3,
+    image: Work2,
+    title: 'Conversor de unidades',
+    technologies: 'Java',
+    category: 'Desktop',
+    github: 'https://github.com/GAMM95/barberia-alura',
+    demo: 'https://gamm95.github.io/barberia-alura/',
   }
 ];
 
