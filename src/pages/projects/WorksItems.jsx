@@ -43,7 +43,7 @@ const WorksItems = ({ item }) => {
               data-aos-offset="1500"
               data-aos-easing="ease-in-sine"
             >
-              <img src={item.image} alt="" className='modal__img' />
+              <img src={item.image} alt="" className='modal_img' />
             </div>
 
             {/* Lado derecho del modal */}

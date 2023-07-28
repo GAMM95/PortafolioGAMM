@@ -141,8 +141,21 @@
     padding: 2rem;
   }
 
+  .modal_img {
+    border-radius: var(--radius);
+  }
+
   .modal__title {
     margin-bottom: 0.25rem;
+  }
+
+  .modal__tech {
+    font-size: var(--small-font-size);
+  }
+
+  .modal__text {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 }
 
@@ -165,7 +178,8 @@
     padding-top: 0.25rem;
     text-align: center;
   }
-  .modal__description{
+
+  .modal__description {
     text-align: justify;
   }
 }
@@ -216,7 +230,7 @@
   .modal__description {
     font-size: var(--smaller-font-size);
     margin-block: var(--mb-1);
-    text-align: center;
+    text-align: justify;
     font-weight: var(--font-normal);
   }
 }
