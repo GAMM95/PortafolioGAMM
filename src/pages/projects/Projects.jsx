@@ -1,5 +1,6 @@
 import React from 'react';
 import "./projects.css";
+import './modal.css'
 import Work from './Work';
 
 const Projects = () => {

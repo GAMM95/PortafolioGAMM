@@ -12,6 +12,7 @@ export const projectsData = [
     category: 'Web',
     github: 'https://github.com/GAMM95/challengeONE_encriptador',
     demo: 'https://gamm95.github.io/challengeONE_encriptador/',
+    description: 'Este Challenge consiste en crear una página web que pueda encriptar y desencriptar un texto ingresado por el usuario y mostrar dicho texto de forma encriptada o desencriptada. Challenge creado con los conocimientos adquiridos durante el curso de "Principiante En Programación".'
   },
   {
     id: 2,
@@ -21,15 +22,17 @@ export const projectsData = [
     category: 'Web',
     github: 'https://github.com/GAMM95/barberia-alura',
     demo: 'https://gamm95.github.io/barberia-alura/',
+    description: 'Este Challenge consiste en crear una página web que pueda encriptar y desencriptar un texto ingresado por el usuario y mostrar dicho texto de forma encriptada o desencriptada. Challenge creado con los conocimientos adquiridos durante el curso de "Principiante En Programación".'
   },
   {
     id: 3,
     image: Work2,
     title: 'Conversor de unidades',
     technologies: 'Java',
-    category: 'Desktop',
-    github: 'https://github.com/GAMM95/barberia-alura',
+    category: 'Escritorio',
+    github: 'https://github.com/GAMM95/Conversor_Unidades',
     demo: 'https://gamm95.github.io/barberia-alura/',
+    description: 'Programa de escritorio que ha sido desarrollado utilizando Apache NetBeans 18 con Java Swing.  Esta aplicación permite a los usuarios convertir divisas y otras unidades, como temperatura, peso, longitud, superficie y volumen. Su funcionalidad es simple y efectiva: los usuarios ingresan un valor numérico y seleccionan la unidad base correspondiente. Luego, al elegir la unidad de cambio, el programa realiza automáticamente el cálculo y muestra el nuevo valor convertido.'
   }
 ];
 
@@ -40,10 +43,10 @@ export const projectsNav = [
   {
     name: 'Web',
   },
+  // {
+  //   name: 'App',
+  // },
   {
-    name: 'App',
-  },
-  {
-    name: 'Desktop',
+    name: 'Escritorio',
   },
 ]

@@ -44,9 +44,10 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
+  --radius: 1rem
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
 }
@@ -203,8 +204,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
