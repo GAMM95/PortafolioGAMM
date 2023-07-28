@@ -1,13 +1,13 @@
-.btn-modal {
+/* .btn-modal {
   padding: 10px 20px;
   display: block;
   margin: 100px auto 0;
   font-size: 18px;
-
-}
+} */
 
 .modal__content {
   grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   align-items: center;
   column-gap: 2rem;
 }
@@ -125,12 +125,15 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .modal__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
     gap: 1.25rem;
   }
 
   .modal__content {
-
+    align-items: center;
     padding: 1rem;
+    margin-right: 2rem;
   }
 
   .modal__img left img {
@@ -145,27 +148,57 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  .modal__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
   .modal__content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     display: block;
+    justify-content: center;
+  }
+
+  .modal__title,
+  .modal__tech {
+    padding-top: 0.25rem;
+    text-align: center;
+  }
+  .modal__description{
+    text-align: justify;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .modal__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
   .modal__content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     display: block;
+    row-gap: 2.5rem;
+    margin-right: 3rem;
   }
 
   .modal__img {
     width: 100%;
   }
 
+  .modal__title,
+  .modal__tech {
+    padding-top: 0.25rem;
+    text-align: center;
+  }
+
   .modal__description {
     font-size: var(--smaller-font-size);
     margin-block: var(--mb-1);
     letter-spacing: .05rem;
-    text-align: start;
+    text-align: justify;
     font-weight: var(--font-normal);
   }
 }
@@ -173,11 +206,17 @@
 /* For small devices */
 @media screen and (max-width: 350px) {
 
+  .modal__content {
+    grid-template-columns: 1fr;
+    display: block;
+    row-gap: 2.5rem;
+    margin-right: 2rem;
+  }
+
   .modal__description {
     font-size: var(--smaller-font-size);
     margin-block: var(--mb-1);
-    letter-spacing: .05rem;
-    text-align: start;
+    text-align: center;
     font-weight: var(--font-normal);
   }
 }
