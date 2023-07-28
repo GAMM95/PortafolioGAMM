@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.4d27d295.css",
-    "main.js": "/gamm-portfolio/static/js/main.b9ff6685.js",
+    "main.css": "/gamm-portfolio/static/css/main.b301b170.css",
+    "main.js": "/gamm-portfolio/static/js/main.9e9a285a.js",
     "static/media/GAMM-CV.pdf": "/gamm-portfolio/static/media/GAMM-CV.fb0f9300cece141f187a.pdf",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
     "static/media/barberia-alura.png": "/gamm-portfolio/static/media/barberia-alura.91b6893eaa932734b55f.png",
@@ -12,11 +12,11 @@
     "static/media/send.svg": "/gamm-portfolio/static/media/send.585d74e8587389551779d951f25bc1cc.svg",
     "static/media/files.svg": "/gamm-portfolio/static/media/files.c7a30b70ac5a9118ccfd718aded479ca.svg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.4d27d295.css.map": "/gamm-portfolio/static/css/main.4d27d295.css.map",
-    "main.b9ff6685.js.map": "/gamm-portfolio/static/js/main.b9ff6685.js.map"
+    "main.b301b170.css.map": "/gamm-portfolio/static/css/main.b301b170.css.map",
+    "main.9e9a285a.js.map": "/gamm-portfolio/static/js/main.9e9a285a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d27d295.css",
-    "static/js/main.b9ff6685.js"
+    "static/css/main.b301b170.css",
+    "static/js/main.9e9a285a.js"
   ]
 }
