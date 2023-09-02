@@ -65,6 +65,7 @@
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
   }
+
   .about__img {
     width: 220px;
     margin-bottom: 0%;
@@ -77,9 +78,17 @@
   .about__data {
     text-align: center;
   }
+
+  /* .about__cv {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+  } */
+
   .about__info {
     justify-content: center;
   }
+
   .about__description {
     padding: 0 5rem;
     margin-bottom: 2rem;
@@ -92,6 +101,7 @@
     /*grid-template-columns: repeat(3, 1fr);*/
     grid-template-columns: repeat(2, 1fr);
   }
+
   .about__description {
     padding: 0;
   }
