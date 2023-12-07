@@ -15,7 +15,7 @@ const WorksItems = ({ item }) => {
     <>
       <div className="work__card" key={item.id}
         data-aos="zoom-in"
-        data-aos-duration="1000"> 
+        data-aos-duration="1000">
         <img src={item.image} alt="" className='work__img' onClick={toggleModal} />
         <h3 className="work__title">{item.title}</h3>
 
@@ -61,15 +61,20 @@ const WorksItems = ({ item }) => {
                 {/* botones de enlace */}
                 <div className="modal__links">
                   {/* Boton Github */}
-                  <a href={item.github} className="modal__button" target="_blank" rel="noopener noreferrer">
-                    Github<BsGithub id="modal__button-github" />
-                  </a>
+                  {item.github && (
+                    <a href={item.github} className="modal__button" target="_blank" rel="noopener noreferrer">
+                      Github<BsGithub id="modal__button-github" />
+                    </a>
+                  )}
 
                   {/* Boton Demo */}
-                  <a href={item.demo} className="modal__button" target="_blank" rel="noopener noreferrer">
-                    Demo <FaPlay className='modal__button-icon' />
-                  </a>
+                  {item.demo && (
+                    <a href={item.demo} className="modal__button" target="_blank" rel="noopener noreferrer">
+                      Demo <FaPlay className='modal__button-icon' />
+                    </a>
+                  )}
                 </div>
+
 
               </div>
 

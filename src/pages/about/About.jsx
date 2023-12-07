@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import AboutImg from "../../assets/about-img.jpg";
 import FileSVG from '../../assets/files.svg'
-import CV_GAMM from "../../assets/CV_GAMM.pdf"
+import CV_GAMM from "../../assets/CV_Mantilla_Miñano_Jhonatan.pdf"
 // import Info from './Info';
 
 const About = () => {
@@ -27,7 +27,7 @@ const About = () => {
 					</p>
 
 					<div className="about__cv">
-						<a download="CV_GAMM.pdf" href={CV_GAMM} className="button button--flex" id='about__download'
+						<a download="CV_Mantilla_Miñano_Jhonatan.pdf" href={CV_GAMM} className="button button--flex" id='about__download'
 							data-aos="fade-up"
 							data-aos-anchor-placement="center-bottom"
 							data-aos-duration="1000">

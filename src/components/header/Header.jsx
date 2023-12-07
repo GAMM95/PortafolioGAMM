@@ -92,12 +92,12 @@ const Header = () => {
           </ul>
 
           {/* Evento cerrar menu - Vista de dispositivos */}
-          <i class="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
+          <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
         </div>
 
         {/* Evento mostrar menu - Vista de dispositivos */}
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i class="uil uil-apps"></i>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>

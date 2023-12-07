@@ -26,12 +26,12 @@ const Skills = () => {
             ? "skills__button skills__active button--flex"
             : "skills__button button--flex"
           } onClick={() => toggleTab(1)}>
-            <i class="uil uil-brackets-curly skills__icon"></i>
+            <i className="uil uil-brackets-curly skills__icon"></i>
             <div>
-              <h1 class="skills__title">Desarrollo Front-End</h1>
-              <span class="skills__subtitle">Más de 6 meses</span>
+              <h1 className="skills__title">Desarrollo Front-End</h1>
+              <span className="skills__subtitle">Más de 6 meses</span>
             </div>
-            <i class="uil uil-angle-down skills__arrow"></i>
+            <i className="uil uil-angle-down skills__arrow"></i>
           </div>
 
           {/* Desarrollo BackEnd */}
@@ -39,12 +39,12 @@ const Skills = () => {
             ? "skills__button skills__active button--flex"
             : "skills__button button--flex"
           } onClick={() => toggleTab(2)}>
-            <i class="uil uil-database-alt skills__icon"></i>
+            <i className="uil uil-database-alt skills__icon"></i>
             <div>
-              <h1 class="skills__title">Desarrollo Back-End</h1>
-              <span class="skills__subtitle">Más de 2 años</span>
+              <h1 className="skills__title">Desarrollo Back-End</h1>
+              <span className="skills__subtitle">Más de 2 años</span>
             </div>
-            <i class="uil uil-angle-down skills__arrow"></i>
+            <i className="uil uil-angle-down skills__arrow"></i>
           </div>
         </div>
 
