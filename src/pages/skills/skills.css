@@ -121,15 +121,26 @@
   }
 }
 
-#js-bar {
-  animation: filljs 2s forwards;
+#tail-bar {
+  animation: filltail 2s forwards;
 }
 
-@keyframes filljs {
+@keyframes filltail {
   100% {
     width: 40%;
   }
 }
+
+#flu-bar {
+  animation: fillflu 2s forwards;
+}
+
+@keyframes fillflu {
+  100% {
+    width: 20%;
+  }
+}
+
 
 #react-bar {
   animation: fillreact 2s forwards;
@@ -162,13 +173,33 @@
   }
 }
 
-#mysql-bar {
-  animation: fillmysql 2s forwards;
+#php-bar {
+  animation: fillphp 2s forwards;
 }
 
-@keyframes fillmysql {
+@keyframes fillphp {
   100% {
-    width: 65%;
+    width: 40%;
+  }
+}
+
+#py-bar {
+  animation: fillpy 2s forwards;
+}
+
+@keyframes fillpy {
+  100% {
+    width: 20%;
+  }
+}
+
+#js-bar {
+  animation: filljs 2s forwards;
+}
+
+@keyframes filljs {
+  100% {
+    width: 40%;
   }
 }
 
@@ -181,6 +212,7 @@
     width: 10%;
   }
 }
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -189,6 +221,7 @@
     margin-right: auto;
     column-gap: 0.1rem;
   }
+
   .skills__tabs {
     display: grid;
     justify-content: center;
@@ -203,14 +236,17 @@
     margin-right: var(--mb-1-5);
     grid-template-columns: initial;
   }
+
   .skills__tabs {
     display: grid;
     justify-content: center;
     margin-bottom: var(--mb-2);
   }
+
   .skills__button {
     margin: var(--mb-1);
   }
+
   .skills__sections {
     width: 100%;
   }
@@ -233,6 +269,7 @@
   .skills__container {
     grid-template-columns: 1fr;
   }
+
   .skills__title {
     font-size: var(--normal-font-size);
   }

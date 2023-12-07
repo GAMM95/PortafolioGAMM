@@ -17,9 +17,9 @@ const Skills = () => {
       <div className="skills__container container grid">
 
         {/* Seccion izquierdo */}
-        <div className="skills__tabs" 
-        data-aos="zoom-in-right"
-        data-aos-duration="1000">
+        <div className="skills__tabs"
+          data-aos="zoom-in-right"
+          data-aos-duration="1000">
 
           {/* Desarrollo FrontEnd */}
           <div className={toggleState === 1
@@ -84,11 +84,33 @@ const Skills = () => {
               {/* JAVASCRIPT */}
               <div className="skills__data">
                 <div className="skills__languajes">
-                  <div className="skills__name">JAVASCRIPT</div>
+                  <div className="skills__name">JavaScript</div>
                   <div className="skills__level">40%</div>
                 </div>
                 <div className="skills__bar">
                   <div id="js-bar"></div>
+                </div>
+              </div>
+
+              {/* Tailwind */}
+              <div className="skills__data">
+                <div className="skills__languajes">
+                  <div className="skills__name">Tailwind</div>
+                  <div className="skills__level">40%</div>
+                </div>
+                <div className="skills__bar">
+                  <div id="js-bar"></div>
+                </div>
+              </div>
+
+              {/* Flutter */}
+              <div className="skills__data">
+                <div className="skills__languajes">
+                  <div className="skills__name">Flutter</div>
+                  <div className="skills__level">20%</div>
+                </div>
+                <div className="skills__bar">
+                  <div id="flu-bar"></div>
                 </div>
               </div>
 
@@ -134,14 +156,25 @@ const Skills = () => {
                 </div>
               </div>
 
-              {/* MySQL Workbench */}
+              {/* PHP */}
               <div className="skills__data">
                 <div className="skills__languajes">
-                  <div className="skills__name">MySQL Workbench</div>
-                  <div className="skills__level">65%</div>
+                  <div className="skills__name">PHP</div>
+                  <div className="skills__level">40%</div>
                 </div>
                 <div className="skills__bar">
-                  <div id="mysql-bar"></div>
+                  <div id="php-bar"></div>
+                </div>
+              </div>
+
+              {/* Python */}
+              <div className="skills__data">
+                <div className="skills__languajes">
+                  <div className="skills__name">Python</div>
+                  <div className="skills__level">20%</div>
+                </div>
+                <div className="skills__bar">
+                  <div id="py-bar"></div>
                 </div>
               </div>
 

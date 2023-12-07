@@ -55,9 +55,9 @@ export const projectsNav = [
   {
     name: 'Web',
   },
-  // {
-  //   name: 'App',
-  // },
+  {
+    name: 'App',
+  },
   {
     name: 'Escritorio',
   },
