@@ -1,18 +1,31 @@
-import React from 'react';
+// export default Scroll
+import React, { useEffect } from 'react';
 import './scroll.css';
 
 const Scroll = () => {
-  window.addEventListener("scroll", function () {
-    const scrollUp = document.querySelector(".scrollup");
-    // Cuando el scroll se encuentra sobre los 560, se muestra el scroll
-    if (this.scrollY >= 560) scrollUp.classList.add("mostrar-scroll");
-    else scrollUp.classList.remove("mostrar-scroll");
-  })
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollUp = document.querySelector(".scrollup");
+      if (window.scrollY >= 560) {
+        scrollUp.classList.add("mostrar-scroll");
+      } else {
+        scrollUp.classList.remove("mostrar-scroll");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Eliminar el event listener cuando el componente se desmonte
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <a href="#home" className="scrollup" rel="noopener noreferrer">
+    <a href="#inicio" className="scrollup" rel="noopener noreferrer">
       <i className="uil uil-arrow-up scrollup__icon"></i>
     </a>
-  )
-}
+  );
+};
 
-export default Scroll
+export default Scroll;

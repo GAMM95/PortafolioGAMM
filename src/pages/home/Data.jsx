@@ -30,11 +30,11 @@ const Data = () => {
 
       {/* Boton de contacto */}
       <a href="#contact" className="button button--flex"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom" F>
+        data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         Contáctame
         <img src={ContactSVG} className='button__icon' alt='sendSVG' />
       </a>
+
     </div>
   )
 }

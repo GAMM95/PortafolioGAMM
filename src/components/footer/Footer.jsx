@@ -21,9 +21,9 @@ const Footer = () => {
 				data-aos="flip-left"
 					data-aos-easing="ease-out-cubic"
 					data-aos-duration="1000">
-					<a href="https://www.instagram.com/jhonatanmm1995/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-instagram"></i></a>
-					<a href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-linkedin-alt"></i></a>
-					<a href="https://github.com/GAMM95" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i class="uil uil-github-alt"></i></a>
+					<a href="https://www.instagram.com/jhonatanmm1995/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-instagram"></i></a>
+					<a href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-linkedin-alt"></i></a>
+					<a href="https://github.com/GAMM95" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-github-alt"></i></a>
 				</div>
 
 				<span className='footer__copy' 

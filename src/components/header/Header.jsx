@@ -1,18 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css';
 import logo from '../../assets/gamm-logo.ico'
 
 const Header = () => {
-  /* ========= Cambiar fondo del encabezado ========= */
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-    // Cuando el scroll se encuentra sobre los 200, se muestra el scroll del encabezado
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove("scroll-header");
-  })
-  /* ========= Toggle Menu ========= */
   const [Toggle, showMenu] = useState(false);
-  const [activeNav, setActiveNav] = useState("#home")
+  const [activeNav, setActiveNav] = useState("#inicio");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(".header");
+      if (window.scrollY >= 80) {
+        header.classList.add("scroll-header");
+      } else {
+        header.classList.remove("scroll-header");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="header">
@@ -29,9 +38,9 @@ const Header = () => {
 
             {/* Home item */}
             <li className="nav__item">
-              <a href="#home"
-                onClick={() => setActiveNav('#home')}
-                className={activeNav === "#home"
+              <a href="#inicio"
+                onClick={() => setActiveNav('#inicio')}
+                className={activeNav === "#inicio"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-estate nav__icon"></i>Inicio
