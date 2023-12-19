@@ -6,7 +6,7 @@ import CV_GAMM from "../../assets/CV_Mantilla_Miñano_Jhonatan.pdf"
 
 const About = () => {
 	return (
-		<section className="about section" id="about">
+		<section className="about section" id="sobre-mi">
 			<h2 className="section__title">Sobre mí</h2>
 			<span className="section__subtitle">Mi información</span>
 

@@ -5,7 +5,7 @@ import Work from './Work';
 
 const Projects = () => {
   return (
-    <section className="proyect section" id="portfolio">
+    <section className="proyect section" id="proyectos">
       {/* Titulo */}
       <h2 className='section__title'>Proyectos</h2>
       <span className='section__subtitle'>Mi portafolio de proyectos realizados</span>

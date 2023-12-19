@@ -24,7 +24,7 @@ const Contact = () => {
     e.target.reset()
   };
   return (
-    <section className="contact section" id="contact">
+    <section className="contact section" id="contacto">
       {/* {Titulo} */}
       <h2 className="section__title">Contáctame</h2>
       <span className="section__subtitle">Ponte en contacto</span>

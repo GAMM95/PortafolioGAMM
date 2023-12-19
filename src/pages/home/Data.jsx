@@ -29,7 +29,7 @@ const Data = () => {
       <p className="home__description">Hola, soy <strong>ingeniero de minas</strong> y <strong>estudiante de ingeniería de sistemas</strong>, apasionado por las nuevas tecnologías y la programación.</p>
 
       {/* Boton de contacto */}
-      <a href="#contact" className="button button--flex"
+      <a href="#contacto" className="button button--flex"
         data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         Contáctame
         <img src={ContactSVG} className='button__icon' alt='sendSVG' />

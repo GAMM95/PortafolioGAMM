@@ -49,8 +49,8 @@ const Header = () => {
 
             {/* About me Item */}
             <li className="nav__item">
-              <a href="#about" onClick={() => setActiveNav('#about')}
-                className={activeNav === "#about"
+              <a href="#sobre-mi" onClick={() => setActiveNav('#sobre-mi')}
+                className={activeNav === "#sobre-mi"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-user nav__icon"></i>Sobre mí
@@ -59,8 +59,8 @@ const Header = () => {
 
             {/* Skills Item */}
             <li className="nav__item">
-              <a href="#skills" onClick={() => setActiveNav('#skills')}
-                className={activeNav === "#skills"
+              <a href="#habilidades" onClick={() => setActiveNav('#habilidades')}
+                className={activeNav === "#habilidades"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-file-alt nav__icon"></i>Habilidades
@@ -81,8 +81,8 @@ const Header = () => {
 
             {/* Proyects Item */}
             <li className="nav__item">
-              <a href="#portfolio" onClick={() => setActiveNav('#portfolio')}
-                className={activeNav === "#portfolio"
+              <a href="#proyectos" onClick={() => setActiveNav('#proyectos')}
+                className={activeNav === "#proyectos"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-scenery nav__icon"></i>Proyectos
@@ -91,8 +91,8 @@ const Header = () => {
 
             {/* Contact Item */}
             <li className="nav__item">
-              <a href="#contact" onClick={() => setActiveNav('#contact')}
-                className={activeNav === "#contact"
+              <a href="#contacto" onClick={() => setActiveNav('#contacto')}
+                className={activeNav === "#contacto"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-message nav__icon"></i>Contacto
