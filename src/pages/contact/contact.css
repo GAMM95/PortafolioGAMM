@@ -19,7 +19,7 @@
 }
 
 .contact__card {
-  background-color: var(--container-color);
+  background-color: var(--card-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 0.75rem;
@@ -77,7 +77,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid var(--border-input-color);
   background: none;
   color: var(--text-color);
   outline: none;

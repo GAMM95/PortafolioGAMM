@@ -1,16 +1,9 @@
-/* .btn-modal {
-  padding: 10px 20px;
-  display: block;
-  margin: 100px auto 0;
-  font-size: 18px;
-} */
-
-.modal__content {
+/* .modal__content {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
-}
+} */
 
 .modal__container,
 .overlay {
@@ -34,16 +27,19 @@
 }
 
 .modal__content {
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
   position: absolute;
   top: center;
   left: center;
   line-height: 1.4;
-  background: #f0f3f5;
-  padding: 14px 28px;
+  background: var(--card-color);
   min-width: 60%;
   max-width: 85%;
   z-index: 9999;
-  box-shadow: 4px4px 8px #cbcbcb 4px -4px 8px #ffffff;
+  box-shadow: 4px 4px 8px #cbcbcb 4px -4px 8px #ffffff;
   padding: 50px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -67,6 +63,7 @@
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-1);
   text-align: start;
+  color:var(--title-color)
 }
 
 .modal__description {

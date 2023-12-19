@@ -12,13 +12,13 @@
 
 .skills__button {
   font-size: var(--h3-font-size);
-  color: var(--title-color);
+  color: var(--disabled-color);
   margin: 0 var(--mb-1);
   cursor: pointer;
 }
 
 .skills__button:hover {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .skills__tabs:not(:last-child) {
@@ -54,7 +54,7 @@
 }
 
 .skills__active {
-  color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .skills__sections {

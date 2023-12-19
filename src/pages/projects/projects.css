@@ -23,12 +23,12 @@
 }
 
 #work__button-github {
-  color: var(--text-color);
+  color: var(--button-color);
   font-size: 1.5rem;
 }
 
 .work__item:hover {
-  background-color: var(--title-color);
+  background-color: var(--button-color);
   color: var(--container-color);
 }
 
@@ -39,7 +39,7 @@
 }
 
 .work__card {
-  background-color: var(--container-color);
+  background-color: var(--card-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
@@ -88,10 +88,11 @@
   transform: translateX(0.25rem);
 }
 
-/* Active work */
+/* Boton activado en proyectos */
 .active-work {
   background-color: var(--title-color);
-  color: var(--container-color);
+  color: var(--body-color);
+  font-weight: var(--font-semi-bold);
 }
 
 /* BREAKPOINTS */

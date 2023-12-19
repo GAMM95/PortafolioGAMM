@@ -6,13 +6,14 @@ import Scroll from './components/scroll/Scroll'
 
 import Home from './pages/home/Home'
 import About from './pages/about/About'
+import Qualification from './pages/qualification/Qualification'
 import Skills from './pages/skills/Skills'
 import Projects from './pages/projects/Projects'
 import Contact from './pages/contact/Contact'
 
 
-/*import Services from './components/services/Services'
-import Qualification from './components/qualification/Qualification'*/
+// import Services from './pages/services/Services'
+// import Qualification from './components/qualification/Qualification'
 
 
 import AOS from 'aos';
@@ -28,9 +29,9 @@ const App = () => {
       <main className='main'>
         <Home />
         <About />
-        {/*<Qualification />*/}
+        <Qualification />
         <Skills />
-        {/*<Services />*/}
+        {/* <Services /> */}
         <Projects />
         <Contact />
       </main>

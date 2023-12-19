@@ -3,7 +3,6 @@ import './about.css';
 import AboutImg from "../../assets/about-img.jpg";
 import FileSVG from '../../assets/files.svg'
 import CV_GAMM from "../../assets/CV_Mantilla_Miñano_Jhonatan.pdf"
-// import Info from './Info';
 
 const About = () => {
 	return (

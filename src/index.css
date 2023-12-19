@@ -7,14 +7,30 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
+  /* --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
+  --hover-color: rgba(255, 253, 253, 0.776); */
+
+  /* Colores modo oscuro */
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(151, 66%, 100%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --header-footer-color: hsl(240, 1%, 15%);
+  --disabled-color: #888888;
+  --border-input-color: #6d6d6d;
+  --button-color: hsl(0, 0%, 10%);
+  --text-color: #d1d1d1;
+  --card-color: #454545;
+  --body-color: hsl(240, 1%, 18%);
+  --container-color: #fff;
   --hover-color: rgba(255, 253, 253, 0.776);
+  --hover-text-color: #5cffff;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -46,10 +62,10 @@
   --mb-3: 3rem;
   --radius: 1rem;
 
-    /*========== z index ==========*/
-    --z-tooltip: 10;
-    --z-fixed: 100;
-    --z-modal: 1000;
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
 }
 
 /* Responsive typography */
@@ -151,7 +167,8 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  /* background-color: var(--title-color); */
+  background-color: var(--button-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -204,7 +221,8 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
