@@ -31,6 +31,7 @@
   --container-color: #fff;
   --hover-color: rgba(255, 253, 253, 0.776);
   --hover-text-color: #5cffff;
+  --hover-card-color: #cdfffc;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;

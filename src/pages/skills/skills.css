@@ -97,7 +97,7 @@
   width: 0;
   height: 8px;
   border-radius: 10px;
-  background-color: #61dafb;
+  background-color: var(--hover-text-color);
 }
 
 /* Animacion Frontend */
@@ -140,7 +140,6 @@
     width: 20%;
   }
 }
-
 
 #react-bar {
   animation: fillreact 2s forwards;

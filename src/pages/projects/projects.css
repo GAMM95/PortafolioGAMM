@@ -50,6 +50,7 @@
   transform: scale(1.2); 
   /*box-shadow: h-shadow v-shadow blur spread color;*/
   box-shadow: 0px 0px 5px 0px #c2edf9;
+  box-shadow: 0px 0px 5px 0px var(--hover-card-color);
   cursor: pointer;
 }
 
