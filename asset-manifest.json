@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.39009ae4.css",
-    "main.js": "/gamm-portfolio/static/js/main.a60bb0b9.js",
+    "main.css": "/gamm-portfolio/static/css/main.11f6d120.css",
+    "main.js": "/gamm-portfolio/static/js/main.2047fb8a.js",
     "static/media/conversor.zip": "/gamm-portfolio/static/media/conversor.c79772d29c78e818233b.zip",
     "static/media/CV_Mantilla_Miñano_Jhonatan.pdf": "/gamm-portfolio/static/media/CV_Mantilla_Miñano_Jhonatan.2d0b27b6de097636370d.pdf",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
@@ -15,11 +15,11 @@
     "static/media/send.svg": "/gamm-portfolio/static/media/send.585d74e8587389551779d951f25bc1cc.svg",
     "static/media/files.svg": "/gamm-portfolio/static/media/files.c7a30b70ac5a9118ccfd718aded479ca.svg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.39009ae4.css.map": "/gamm-portfolio/static/css/main.39009ae4.css.map",
-    "main.a60bb0b9.js.map": "/gamm-portfolio/static/js/main.a60bb0b9.js.map"
+    "main.11f6d120.css.map": "/gamm-portfolio/static/css/main.11f6d120.css.map",
+    "main.2047fb8a.js.map": "/gamm-portfolio/static/js/main.2047fb8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.39009ae4.css",
-    "static/js/main.a60bb0b9.js"
+    "static/css/main.11f6d120.css",
+    "static/js/main.2047fb8a.js"
   ]
 }
