@@ -2,7 +2,9 @@ import Work1 from "../../assets/challenge-encriptador.png"
 import Work2 from "../../assets/barberia-alura.png"
 import Work3 from "../../assets/work3.png"
 import Work4 from "../../assets/work4.png"
+import Work5 from "../../assets/work5.jpg"
 import installer1 from "../../assets/conversor.zip"
+import apk1 from "../../assets/PrediHipertension.apk"
 
 
 export const projectsData = [
@@ -45,6 +47,17 @@ export const projectsData = [
     github: 'https://github.com/GAMM95/consulta-transportes',
     demo: 'http://200.233.44.136/consulta_transporte/',
     description: 'Sistema web en línea de consultas de transportes para la Sub Gerencia de Transportes, Tránsito y Seguridad Vial de la Municipalidad Distrital de La Esperanza. Este sistema permite a los inspectores de tránsito hacer consultas de las tarjetas de circulación vigentes, papeletas impuestas sin pagar y paraderos establecidos correspondientes al vehiculo menor motorizado ingresando la placa. Para ingresar al sistema utilice las credenciales username: gamm y contraseña: 123456'
+  },
+  {
+    id: 5,
+    image: Work5,
+    title: 'PrediHipertension',
+    technologies: 'Flutter - Machine Learning - Firebase',
+    category: 'App',
+    github: 'https://github.com/GAMM95/consulta-transportes',
+    demo: apk1,
+
+    description: 'Aplicativo móvil basado en Machine Learning para la predicción del riesgo de desarrollar Hipertensión Arterial (HTA). Este aplicativo consta de un test de 15 preguntas de factores de riesgo directamente relacionados con la HTA.'
   }
 ];
 
