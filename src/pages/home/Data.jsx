@@ -2,7 +2,7 @@ import React from 'react'
 import HandSVG from '../../assets/hand.svg'
 import ContactSVG from '../../assets/send.svg'
 import FileSVG from '../../assets/files.svg'
-import CV_GAMM from "../../assets/CV_Mantilla_Miñano_Jhonatan.pdf"
+import CV_GAMM from "../../assets/doc/CV_Mantilla_Miñano_Jhonatan.pdf"
 import { Typewriter } from 'react-simple-typewriter'
 
 const Data = () => {
