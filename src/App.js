@@ -5,15 +5,14 @@ import Footer from './components/footer/Footer'
 import Scroll from './components/scroll/Scroll'
 
 import Home from './pages/home/Home'
-import About from './pages/about/About'
-// import Qualification from './pages/qualification/Qualification'
+// import About from './pages/about/About'
 import Skills from './pages/skills/Skills'
 import Projects from './pages/projects/Projects'
+import Qualification from './pages/qualification/Qualification'
 import Contact from './pages/contact/Contact'
 
 
 // import Services from './pages/services/Services'
-// import Qualification from './components/qualification/Qualification'
 
 
 import AOS from 'aos';
@@ -28,11 +27,12 @@ const App = () => {
 
       <main className='main'>
         <Home />
-        <About />
-        {/* <Qualification /> */}
+        {/* <About /> */}
         <Skills />
-        {/* <Services /> */}
         <Projects />
+        <Qualification />
+        {/* <Services /> */}
+
         <Contact />
       </main>
 

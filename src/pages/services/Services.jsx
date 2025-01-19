@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import './services.css'
+import { HiOutlineCodeBracket } from "react-icons/hi2";
+import { MdOutlineSupportAgent } from "react-icons/md";
+
 
 const Services = () => {
   const [toggleState, setToggleState] = useState(0);
@@ -8,7 +11,7 @@ const Services = () => {
     setToggleState(index);
   }
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="servicios">
       {/* Titulo */}
       <h2 className='section__title'>Servicios</h2>
       <span className='section__subtitle'>Lo que ofrezco</span>
@@ -19,9 +22,9 @@ const Services = () => {
         <div className="services__content">
           {/* Descripcion */}
           <div>
-            <i className="uil uil-web-grid services__icon"></i>
+            <HiOutlineCodeBracket className="services__icon" />
             <h3 className="services__title">
-              Product <br /> Designer
+              Desarrollo de <br /> Sistemas Informáticos
             </h3>
           </div>
 
@@ -38,35 +41,33 @@ const Services = () => {
               {/* Evento para cerrar ventana */}
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
               {/* Titulo Contenedor */}
-              
-              <h3 className="services__modal-title">Product Designer</h3>
+
+              <h3 className="services__modal-title">Desarrollo de sistemas informáticos</h3>
               {/* Subtitulo Contenedor */}
-              <p className="services__modal-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid ratione porro repudiandae suscipit commodi!</p>
+              <p className="services__modal-description">
+                Ofrezco soluciones innovadoras utilizando tecnologías modernas como PHP, Java, SQL Server, Flutter y frameworks como Spring Boot y React. Desarrollando tanto en frontend como backend, creo aplicaciones personalizadas, escalables y eficientes, adaptadas a las necesidades de cada cliente. Mi objetivo es resolver problemas reales con software intuitivo y de alto rendimiento.
+              </p>
               {/* Lista de descripcion del contenedor */}
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                  Desarrollo de aplicaciones web y móviles.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                  Integración de bases de datos robustas con SQL Server.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                  Uso de tecnologías modernas y frameworks ágiles.
+                  </p>
                 </li>
               </ul>
 
@@ -77,9 +78,9 @@ const Services = () => {
         {/* 2° contenedor */}
         <div className="services__content">
           <div>
-            <i className="uil uil-arrow services__icon"></i>
+            <MdOutlineSupportAgent className="services__icon" />
             <h3 className="services__title">
-              UI/UX <br /> Desginer
+              Soporte Técnico y <br /> Mantenimiento Preventivo
             </h3>
           </div>
 
@@ -93,87 +94,41 @@ const Services = () => {
             <div className="services__modal-content">
 
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">UI/UX Designer</h3>
-              <p className="services__modal-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid ratione porro repudiandae suscipit commodi!</p>
+              <h3 className="services__modal-title">Soporte Técnico y
+                Mantenimiento Preventivo</h3>
+              <p className="services__modal-description">
+                Ofrezco mantenimiento preventivo para evitar fallos inesperados y aseguro una respuesta rápida ante cualquier problema técnico. Ya sea para reparar hardware, actualizar software o asegurar la red.
+              </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                    Limpieza física interna y externa de equipos, reemplazo de componentes defectuosos, y actualización de hardware.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                    Instalación y configuración de software, eliminación de virus y malware, optimización del sistema operativo para mejorar el rendimiento.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                    Diagnóstico y reparación de problemas de hardware y software, soporte remoto para resolver incidencias técnicas.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
+                  <p className="services__modal-info">
+                    Recomendaciones para la compra de equipos de acuerdo a las necesidades del cliente, instalación y configuración de redes domésticas o empresariales.
+                  </p>
                 </li>
 
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-        </div>
-
-        {/* 3° contenedor */}
-        <div className="services__content">
-          <div>
-            <i className="uil uil-edit services__icon"></i>
-            <h3 className="services__title">
-              Visual <br /> Desginer
-            </h3>
-          </div>
-
-          <span className="services__button" onClick={() => toggleTab(3)}>
-            Ver más
-            <i className="bx bx-right-arrow-alt services__button-icon"></i>
-          </span>
-
-
-          <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-
-              <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita aliquid ratione porro repudiandae suscipit commodi!</p>
-
-              <ul className="services__modal-services grid">
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, iure?</p>
-                </li>
               </ul>
 
             </div>

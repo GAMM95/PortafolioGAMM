@@ -2,11 +2,15 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import ContactSVG from '../../assets/send.svg'
 import './contact.css'
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaDiscord } from "react-icons/fa";
 import Swal from 'sweetalert2'
+// import { ToastContainer } from "react-toastr";
+// import ToastMessagejQuery from "react-toastr/lib/components/ToastMessage/ToastMessagejQuery";
+
 
 const Contact = () => {
   const form = useRef();
-
 
   const mostrarAlerta = (e) => {
     Swal.fire({
@@ -16,13 +20,15 @@ const Contact = () => {
     })
 
   }
+
   const sendEmail = (e) => {
     e.preventDefault();
     // Envio de mensaje
-    emailjs.sendForm('service_a9sjabw', 'template_lb7pjxo', form.current, 'I95TsA84ROWVMaiGq')
+    emailjs.sendForm('service_mhd3shs', 'template_fybhxnn', form.current, 'I95TsA84ROWVMaiGq')
     mostrarAlerta();
     e.target.reset()
   };
+
   return (
     <section className="contact section" id="contacto">
       {/* {Titulo} */}
@@ -37,7 +43,7 @@ const Contact = () => {
             data-aos="fade-down"
             data-aos-duration="500">
             <div className="contact__card">
-              <i className="bx bxl-discord-alt contact__card-icon"></i>
+              <FaDiscord className="contact__card-icon"/>
 
               <h3 className="contact__card-title">Discord</h3>
               <span className="contact__card-data">jhonatanmm.1995@gmail.com</span>
@@ -46,7 +52,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <IoLogoWhatsapp className="contact__card-icon" />
 
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">(+51) 950 212 908</span>
@@ -84,10 +90,13 @@ const Contact = () => {
             </div>
 
             {/* Boton Enviar mensaje */}
-            <button className="button button--flex" id='contact__send' >
-              Enviar mensaje
-              <img src={ContactSVG} className='button__icon' alt='sendSVG' />
-            </button>
+            <div className='button__container'>
+              <button className="button button--flex" id='contact__send'>
+                Enviar mensaje
+                <img src={ContactSVG} className='button__icon' alt='sendSVG' />
+              </button>
+            </div>
+
           </form>
         </div>
 

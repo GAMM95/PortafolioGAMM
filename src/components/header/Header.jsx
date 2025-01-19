@@ -48,14 +48,14 @@ const Header = () => {
             </li>
 
             {/* About me Item */}
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a href="#sobre-mi" onClick={() => setActiveNav('#sobre-mi')}
                 className={activeNav === "#sobre-mi"
                   ? "nav__link active-link"
                   : "nav__link"}>
                 <i className="uil uil-user nav__icon"></i>Sobre mí
               </a>
-            </li>
+            </li> */}
 
             {/* Skills Item */}
             <li className="nav__item">
@@ -67,18 +67,6 @@ const Header = () => {
               </a>
             </li>
 
-            {/* Services Item */}
-            {/*}
-            <li className="nav__item">
-              <a href="#services" onClick={() => setActiveNav('#services')}
-                className={activeNav === "#services"
-                  ? "nav__link active-link"
-                  : "nav__link"}>
-                <i className="uil uil-briefcase-alt nav__icon"></i>Servicios
-              </a>
-            </li>
-            */}
-
             {/* Proyects Item */}
             <li className="nav__item">
               <a href="#proyectos" onClick={() => setActiveNav('#proyectos')}
@@ -88,6 +76,26 @@ const Header = () => {
                 <i className="uil uil-scenery nav__icon"></i>Proyectos
               </a>
             </li>
+
+            {/* Formacion Item */}
+            <li className="nav__item">
+              <a href="#formacion" onClick={() => setActiveNav('#formacion')}
+                className={activeNav === "#formacion"
+                  ? "nav__link active-link"
+                  : "nav__link"}>
+                <i className="uil uil-graduation-cap nav__icon"></i>Formación
+              </a>
+            </li>
+
+            {/* Services Item */}
+            {/* <li className="nav__item">
+              <a href="#servicios" onClick={() => setActiveNav('#servicios')}
+                className={activeNav === "#servicios"
+                  ? "nav__link active-link"
+                  : "nav__link"}>
+                <i className="uil uil-briefcase-alt nav__icon"></i>Servicios
+              </a>
+            </li> */}
 
             {/* Contact Item */}
             <li className="nav__item">

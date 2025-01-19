@@ -1,37 +1,38 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
-  --hover-color: rgba(255, 253, 253, 0.776); */
-
-  /* Colores modo oscuro */
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(151, 66%, 100%);
+  --title-color: hsl(0, 1%, 36%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --header-footer-color: hsl(240, 1%, 15%);
-  --nav-menu-color: hsl(240, 1%, 15%);
+  /* color del encabezado */
+  /* --header-footer-color: hsl(0, 0%, 100%); */
+  --header-footer-color: #FFFFFA;
+  /* color del menu inferior */
+  /* --nav-menu-color: hsl(0, 0%, 64%); */
+  --nav-menu-color: #fdfffc;
   --disabled-color: #888888;
   --border-input-color: #6d6d6d;
-  --button-color: hsl(0, 0%, 10%);
-  --text-color: #d1d1d1;
-  --card-color: #454545;
-  --body-color: hsl(240, 1%, 18%);
+  --button-color-hover: #1B263B;
+  --button-color: #415A77;
+  /* Color del texto */
+  --text-color: #333138;
+  --card-color: #ffffff;
+  /* Color del cuerpo */
+  /* --body-color: hsl(240, 4%, 89%); */
+  --body-color: #F7F7F8;
   --container-color: #fff;
-  --hover-color: rgba(255, 253, 253, 0.776);
-  --hover-text-color: #5cffff;
+  --hover-color: rgba(116, 116, 116, 0.776);
+  --hover-text-color: #ff9f1c;
   --hover-card-color: #cdfffc;
 
   /*========== Font and typography ==========*/
@@ -54,6 +55,7 @@
 
   /*========== Margenes Bottom ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-15: 0.15rem;
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
@@ -135,7 +137,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 5rem 0 2rem;
 }
 
 .section__title {
@@ -172,8 +174,8 @@ img {
   /* background-color: var(--title-color); */
   background-color: var(--button-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
   font-weight: var(--font-medium);
 }
 
@@ -188,6 +190,13 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -221,10 +230,15 @@ img {
   .section__subtitle {
     margin-bottom: var(--mb-3);
   }
+
+
+  .button__container {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {

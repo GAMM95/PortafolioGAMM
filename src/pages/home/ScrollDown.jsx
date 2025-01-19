@@ -3,7 +3,7 @@ import React from 'react'
 const ScrollDown = () => {
   return (
     <div className="home__scroll">
-      <a href="#sobre-mi" className="home__scroll-button button--flex" rel="noopener noreferrer">
+      <a href="#contacto" className="home__scroll-button button--flex" rel="noopener noreferrer">
         <svg
           width="32px"
           height="32px"
@@ -39,7 +39,7 @@ const ScrollDown = () => {
             }}
           ></path>
         </svg>
-        <span className="home__scroll-name">Más sobre mí</span>
+        <span className="home__scroll-name">Contáctame</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
       </a>
     </div>

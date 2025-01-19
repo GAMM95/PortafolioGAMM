@@ -5,11 +5,11 @@ const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer__container container">
-				<h1 className="footer__title">GAMM</h1>
+				<h1 className="footer__title">Mi Portafolio</h1>
 
 				<ul className="footer__list">
 					<li>
-						<a href="#sobre-mi" className="footer__link">Sobre mí</a>
+						<a href="#habilidades" className="footer__link">Habilidades</a>
 					</li>
 
 					<li>
@@ -21,7 +21,6 @@ const Footer = () => {
 				data-aos="flip-left"
 					data-aos-easing="ease-out-cubic"
 					data-aos-duration="1000">
-					<a href="https://www.instagram.com/jhonatanmm1995/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-instagram"></i></a>
 					<a href="https://www.linkedin.com/in/jhonatan-mantilla-jmm190395/" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-linkedin-alt"></i></a>
 					<a href="https://github.com/GAMM95" className="footer__social-icon" target="_blank" rel="noopener noreferrer"><i className="uil uil-github-alt"></i></a>
 				</div>

@@ -34,12 +34,12 @@
 }
 
 .footer__social-icon {
-  background-color: var(--title-color-dark);
+  background-color: var(--button-color);
   color: var(--container-color);
-  padding: 0.4rem;
+  padding: .5rem;
   border-radius: 0.5rem;
   display: inline-flex;
-  font-size: var(--small-font-size);
+  font-size: var(--large-font-size);
 }
 
 .footer__social-icon:hover {

@@ -54,7 +54,7 @@ export const projectsData = [
     title: 'PrediHipertension',
     technologies: 'Flutter - Machine Learning - Firebase',
     category: 'App',
-    github: 'https://github.com/GAMM95/consulta-transportes',
+    github: 'https://github.com/GAMM95/PrediHipertension',
     demo: apk1,
 
     description: 'Aplicativo móvil basado en Machine Learning para la predicción del riesgo de desarrollar Hipertensión Arterial (HTA). Este aplicativo consta de un test de 15 preguntas de factores de riesgo directamente relacionados con la HTA.'

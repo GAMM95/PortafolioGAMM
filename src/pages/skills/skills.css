@@ -32,12 +32,38 @@
 }
 
 .skills__icon {
-  margin-right: var(--mb-0-75);
+  margin-right: var(--mb-1-5);
+}
+
+.skills__data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  /* Espacio entre cada habilidad */
+}
+
+
+.icon__languajes {
+  font-size: 24px;
+  margin-right: 8px;
+	color: var(--button-color);
+}
+
+.skills__info {
+  width: 100%;
+}
+
+.skills__name-level {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  /* Espacio entre el título/nivel y la barra */
 }
 
 .skills__title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
+  margin-right: 1.5rem;
 }
 
 .skills__subtitle {
@@ -72,13 +98,12 @@
 }
 
 .skills__list {
-  row-gap: 1.8rem;
+  row-gap: .5rem;
 }
 
 .skills__languajes {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .skills__name {
@@ -87,9 +112,15 @@
 }
 
 .skills__bar {
+  background-color: #e0e0e0;
+  /* Color de fondo de la barra vacía */
+  height: 8px;
+  /* Altura de la barra */
+  border-radius: 4px;
+  /* Bordes redondeados */
   position: relative;
-  border: 1px solid lightgray;
-  border-radius: 20px;
+  width: 100%;
+  /* El ancho de la barra de progreso */
 }
 
 .skills__bar div {
@@ -107,7 +138,7 @@
 
 @keyframes fillhtml {
   100% {
-    width: 75%;
+    width: 70%;
   }
 }
 
@@ -121,77 +152,6 @@
   }
 }
 
-#tail-bar {
-  animation: filltail 2s forwards;
-}
-
-@keyframes filltail {
-  100% {
-    width: 40%;
-  }
-}
-
-#flu-bar {
-  animation: fillflu 2s forwards;
-}
-
-@keyframes fillflu {
-  100% {
-    width: 20%;
-  }
-}
-
-#react-bar {
-  animation: fillreact 2s forwards;
-}
-
-@keyframes fillreact {
-  100% {
-    width: 15%;
-  }
-}
-
-/* Animacion Backend */
-#java-bar {
-  animation: filljava 2s forwards;
-}
-
-@keyframes filljava {
-  100% {
-    width: 80%;
-  }
-}
-
-#sql-bar {
-  animation: fillsql 2s forwards;
-}
-
-@keyframes fillsql {
-  100% {
-    width: 60%;
-  }
-}
-
-#php-bar {
-  animation: fillphp 2s forwards;
-}
-
-@keyframes fillphp {
-  100% {
-    width: 40%;
-  }
-}
-
-#py-bar {
-  animation: fillpy 2s forwards;
-}
-
-@keyframes fillpy {
-  100% {
-    width: 20%;
-  }
-}
-
 #js-bar {
   animation: filljs 2s forwards;
 }
@@ -202,6 +162,77 @@
   }
 }
 
+#tailwind-bar {
+  animation: filltail 2s forwards;
+}
+
+@keyframes filltail {
+  100% {
+    width: 50%;
+  }
+}
+
+#flutter-bar {
+  animation: fillflu 2s forwards;
+}
+
+@keyframes fillflu {
+  100% {
+    width: 40%;
+  }
+}
+
+#react-bar {
+  animation: fillreact 2s forwards;
+}
+
+@keyframes fillreact {
+  100% {
+    width: 30%;
+  }
+}
+
+/* Animacion Backend */
+#java-bar {
+  animation: filljava 2s forwards;
+}
+
+@keyframes filljava {
+  100% {
+    width: 70%;
+  }
+}
+
+#springboot-bar {
+  animation: fillspring 2s forwards;
+}
+
+@keyframes fillspring {
+  100% {
+    width: 30%;
+  }
+}
+
+#php-bar {
+  animation: fillphp 2s forwards;
+}
+
+@keyframes fillphp {
+  100% {
+    width: 60%;
+  }
+}
+
+#python-bar {
+  animation: fillpy 2s forwards;
+}
+
+@keyframes fillpy {
+  100% {
+    width: 30%;
+  }
+}
+
 #node-bar {
   animation: fillnode 2s forwards;
 }
@@ -209,6 +240,47 @@
 @keyframes fillnode {
   100% {
     width: 10%;
+  }
+}
+
+/* Base de datos */
+#sql-bar {
+  animation: fillsql 2s forwards;
+}
+
+@keyframes fillsql {
+  100% {
+    width: 70%;
+  }
+}
+
+#mysql-bar {
+  animation: fillmysql 2s forwards;
+}
+
+@keyframes fillmysql {
+  100% {
+    width: 60%;
+  }
+}
+
+#sqlite-bar {
+  animation: fillsqlite 2s forwards;
+}
+
+@keyframes fillsqlite {
+  100% {
+    width: 10%;
+  }
+}
+
+#firebase-bar {
+  animation: fillfirebase 2s forwards;
+}
+
+@keyframes fillfirebase {
+  100% {
+    width: 40%;
   }
 }
 
