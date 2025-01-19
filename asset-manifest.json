@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.71c88e32.css",
-    "main.js": "/gamm-portfolio/static/js/main.0fc76dc5.js",
+    "main.css": "/gamm-portfolio/static/css/main.b1d6a450.css",
+    "main.js": "/gamm-portfolio/static/js/main.8a50f1d3.js",
     "static/media/PrediHipertension.apk": "/gamm-portfolio/static/media/PrediHipertension.62975828993460c7a744.apk",
     "static/media/conversor.zip": "/gamm-portfolio/static/media/conversor.c79772d29c78e818233b.zip",
-    "static/media/CV_Mantilla_Miñano_Jhonatan.pdf": "/gamm-portfolio/static/media/CV_Mantilla_Miñano_Jhonatan.2d0b27b6de097636370d.pdf",
+    "static/media/predihipertension.png": "/gamm-portfolio/static/media/predihipertension.7d570d87b89fdac4226b.png",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
     "static/media/barberia-alura.png": "/gamm-portfolio/static/media/barberia-alura.91b6893eaa932734b55f.png",
-    "static/media/work4.png": "/gamm-portfolio/static/media/work4.d29d2c45a2f30451cb42.png",
-    "static/media/work3.png": "/gamm-portfolio/static/media/work3.45e18bf6c169d3bcd234.png",
-    "static/media/work5.jpg": "/gamm-portfolio/static/media/work5.99085e7e876c8f3f229a.jpg",
-    "static/media/about-img.jpg": "/gamm-portfolio/static/media/about-img.a8afc721935a27d4184d.jpg",
+    "static/media/transportes.png": "/gamm-portfolio/static/media/transportes.d29d2c45a2f30451cb42.png",
+    "static/media/conversor.png": "/gamm-portfolio/static/media/conversor.45e18bf6c169d3bcd234.png",
+    "static/media/CV_Mantilla_Miñano_Jhonatan.pdf": "/gamm-portfolio/static/media/CV_Mantilla_Miñano_Jhonatan.6c9a7a05553c96770400.pdf",
+    "static/media/incidencias.png": "/gamm-portfolio/static/media/incidencias.9272f40792cdfb38d893.png",
     "static/media/challenge-encriptador.png": "/gamm-portfolio/static/media/challenge-encriptador.443ddcbb74815f6bcef5.png",
     "static/media/gamm-logo.ico": "/gamm-portfolio/static/media/gamm-logo.da874e5bc956403cd4e0.ico",
     "static/media/hand.svg": "/gamm-portfolio/static/media/hand.224ba8f9af2a0a95e7ee12f22e59855c.svg",
     "static/media/send.svg": "/gamm-portfolio/static/media/send.585d74e8587389551779d951f25bc1cc.svg",
     "static/media/files.svg": "/gamm-portfolio/static/media/files.c7a30b70ac5a9118ccfd718aded479ca.svg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.71c88e32.css.map": "/gamm-portfolio/static/css/main.71c88e32.css.map",
-    "main.0fc76dc5.js.map": "/gamm-portfolio/static/js/main.0fc76dc5.js.map"
+    "main.b1d6a450.css.map": "/gamm-portfolio/static/css/main.b1d6a450.css.map",
+    "main.8a50f1d3.js.map": "/gamm-portfolio/static/js/main.8a50f1d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.71c88e32.css",
-    "static/js/main.0fc76dc5.js"
+    "static/css/main.b1d6a450.css",
+    "static/js/main.8a50f1d3.js"
   ]
 }
