@@ -19,7 +19,7 @@ const Data = () => {
       {/* Desempeño */}
       <h3 className="home__subtitle">
         <Typewriter className='subtitle'
-          words={['Ingeniero', 'Programador']}
+          words={['Ingeniero de sistemas', 'Programador', ]}
           loop
           cursor
           cursorStyle='|'
