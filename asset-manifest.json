@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gamm-portfolio/static/css/main.b1d6a450.css",
-    "main.js": "/gamm-portfolio/static/js/main.8a50f1d3.js",
-    "static/media/PrediHipertension.apk": "/gamm-portfolio/static/media/PrediHipertension.62975828993460c7a744.apk",
+    "main.css": "/gamm-portfolio/static/css/main.3130ff71.css",
+    "main.js": "/gamm-portfolio/static/js/main.963e2a26.js",
+    "static/media/PrediHipertension.apk": "/gamm-portfolio/static/media/PrediHipertension.43633968bc71c328e34a.apk",
     "static/media/conversor.zip": "/gamm-portfolio/static/media/conversor.c79772d29c78e818233b.zip",
     "static/media/predihipertension.png": "/gamm-portfolio/static/media/predihipertension.7d570d87b89fdac4226b.png",
     "static/media/perfil.png": "/gamm-portfolio/static/media/perfil.b181b2d734c29cdb2588.png",
@@ -17,11 +17,11 @@
     "static/media/send.svg": "/gamm-portfolio/static/media/send.585d74e8587389551779d951f25bc1cc.svg",
     "static/media/files.svg": "/gamm-portfolio/static/media/files.c7a30b70ac5a9118ccfd718aded479ca.svg",
     "index.html": "/gamm-portfolio/index.html",
-    "main.b1d6a450.css.map": "/gamm-portfolio/static/css/main.b1d6a450.css.map",
-    "main.8a50f1d3.js.map": "/gamm-portfolio/static/js/main.8a50f1d3.js.map"
+    "main.3130ff71.css.map": "/gamm-portfolio/static/css/main.3130ff71.css.map",
+    "main.963e2a26.js.map": "/gamm-portfolio/static/js/main.963e2a26.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d6a450.css",
-    "static/js/main.8a50f1d3.js"
+    "static/css/main.3130ff71.css",
+    "static/js/main.963e2a26.js"
   ]
 }
